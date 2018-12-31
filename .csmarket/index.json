@@ -3,7 +3,7 @@
     "name": "My Really Cool Plugin",
     "images": {
         "basePath": ".csmarket/img",
-        "featured": "/featured.png",
-        "listing": "/listing.png"
+        "featured": "featured.png",
+        "listing": "listing.png"
     }
 }
