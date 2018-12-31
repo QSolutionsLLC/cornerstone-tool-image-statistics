@@ -1,9 +1,26 @@
 {
-    "shouldShow": true,
-    "name": "My Really Cool Plugin",
-    "images": {
-        "basePath": ".csmarket/img",
-        "featured": "featured.png",
-        "listing": "listing.png"
+  "shouldShow": true,
+  "name": "My Really Cool Plugin",
+  "images": {
+    "basePath": ".csmarket/img",
+    "featured": "featured.png",
+    "listing": "listing.png"
+  },
+  "highlights": [
+    "a good first feature",
+    "does some really cool stuff",
+    "your mom would like it"
+  ],
+  "category": "Annotations",
+  "tags": ["tool", "annotation"],
+  "license": "MIT",
+  "compatibleWith": [
+    {
+      "name": "cornerstone-tools",
+      "versions": [
+        "3.0.x"
+      ]
     }
+  ],
+  "dependsOn": []
 }
