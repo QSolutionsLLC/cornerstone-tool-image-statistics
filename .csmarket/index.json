@@ -13,7 +13,6 @@
   ],
   "category": "Annotations",
   "tags": ["tool", "annotation"],
-  "license": "MIT",
   "compatibleWith": [
     {
       "name": "cornerstone-tools",
