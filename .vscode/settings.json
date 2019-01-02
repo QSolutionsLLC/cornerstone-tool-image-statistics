@@ -1,0 +1,46 @@
+{
+  // ===
+  // Spacing
+  // ===
+
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.trimAutoWhitespace": true,
+  "files.trimTrailingWhitespace": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+  // ===
+  // Event Triggers
+  // ===
+
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.run": "onSave",
+  "eslint.validate": [
+    { "language": "javascript", "autoFix": true },
+    { "language": "html", "autoFix": true }
+  ],
+  "vetur.completion.useScaffoldSnippets": false,
+  "prettier.disableLanguages": [],
+
+  // ===
+  // JS(ON)
+  // ===
+
+  "jest.autoEnable": false,
+  "jest.pathToJest": "npm test --",
+  "jest.enableCodeLens": false,
+  "javascript.format.enable": false,
+  "json.format.enable": false,
+
+  // ===
+  // MARKDOWN
+  // ===
+
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 80
+  }
+}

@@ -1,0 +1,27 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    // Note: JSON with comments? VS Code strips them out before using JSON
+    "recommendations": [    
+      // Lint-on-save with ESLint
+      // https://github.com/Microsoft/vscode-eslint
+      "dbaeumer.vscode-eslint",
+  
+      // Format-on-save with Prettier
+      // https://github.com/prettier/prettier-vscode
+      "esbenp.prettier-vscode",
+  
+      // Test `.unit.js` files on save with Jest
+      // https://github.com/jest-community/vscode-jest
+      "Orta.vscode-jest",
+  
+      // Lint markdown in README files
+      // https://github.com/DavidAnson/vscode-markdownlint
+      "DavidAnson.vscode-markdownlint",
+  
+      // Default set of icons
+      "robertohuertasm.vscode-icons",
+      "coenraads.bracket-pair-colorizer"
+    ]
+  }
+  
