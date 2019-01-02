@@ -13,6 +13,7 @@
   ],
   "category": "Annotations",
   "tags": ["tool", "annotation"],
+  "buyMeACoffee": "dannyrb",
   "compatibleWith": [
     {
       "name": "cornerstone-tools",
