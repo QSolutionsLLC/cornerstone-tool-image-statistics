@@ -1,0 +1,15 @@
+## All Non-Dist Directories
+.circleci/
+.csmarket/
+.vscode/
+example/
+node_modules/
+src/
+
+## Root Files
+.babelrc
+.eslintignore
+.eslintrc.json
+.gitignore
+.npmignore
+webpack.config.js
