@@ -1,9 +1,12 @@
 {
-  "name": "example-cornerstonejs-marketplace-listing",
-  "version": "1.0.0",
+  "name": "@qsolutionsllc/cornerstone-tool-image-statistics",
+  "version": "1.0.1",
   "description": "Example project",
   "main": "dist/index.js",
   "module": "src/index.js",
+  "files": [
+    "dist/example-cornerstonejs-marketplace-listing.js"
+  ],
   "scripts": {
     "build": "webpack && cpx dist/example-cornerstonejs-marketplace-listing.js example",
     "test": "echo \"Error: no test specified\" && exit 1",
