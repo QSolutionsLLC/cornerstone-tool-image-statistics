@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>Quick Test Page</title>
+
+    <style>
+      html,
+      body {
+        background: dodgerblue;
+      }
+      #cornerstone-element {
+        width: 512px;
+        height: 512px;
+        margin: 0 auto;
+        background: #ccc;
+      }
+    </style>
+
+    <!-- peerDependencies -->
+    <script src="https://unpkg.com/hammerjs@2.0.8/hammer.js"></script>
+    <script src="https://unpkg.com/cornerstone-math@0.1.7/dist/cornerstoneMath.min.js"></script>
+    <script src="https://unpkg.com/cornerstone-core@2.2.8/dist/cornerstone.js"></script>
+    <script src="https://unpkg.com/cornerstone-web-image-loader@2.1.1/dist/cornerstoneWebImageLoader.min.js"></script>
+    <script src="https://unpkg.com/cornerstone-tools@3.0.0-b.1512/dist/cornerstoneTools.js"></script>
+    <!-- Our Plugin -->
+    <script src="/example-cornerstonejs-marketplace-listing.js"></script>
+    <!-- <script>window.jQuery || document.write('<script src="">\x3C/script>')</script> -->
+  </head>
+  <body>
+    <section>
+      <div
+        id="cornerstone-element"
+        data-index="0"
+        oncontextmenu="return false"
+      ></div>
+    </section>
+
+    <script>
+      /***
+       * Setup
+       */
+      cornerstoneWebImageLoader.external.cornerstone = cornerstone;
+      cornerstone.registerImageLoader(
+        "http",
+        cornerstoneWebImageLoader.loadImage
+      );
+      cornerstone.registerImageLoader(
+        "https",
+        cornerstoneWebImageLoader.loadImage
+      );
+
+      /***
+       * Boilerplate
+       */
+      cornerstoneTools.init();
+      cornerstoneTools.toolColors.setToolColor("orange");
+
+      // Enable Element
+      const element = document.querySelector("#cornerstone-element");
+      cornerstone.enable(element);
+
+      // Load and Display Image
+      const exampleImageId =
+        "https://rawgit.com/dannyrb/cornerstone-vuejs-poc/master/static/simple-study/1.2.276.0.74.3.1167540280.200511.112514.1.1.10.jpg";
+      cornerstone.loadImage(exampleImageId).then(function(image) {
+        cornerstone.displayImage(element, image);
+      });
+
+      // Find, add, activate tools
+      const WwwcTool = cornerstoneTools.WwwcTool;
+      const PanTool = cornerstoneTools.PanTool;
+      const ZoomTool = cornerstoneTools.ZoomTool;
+
+      cornerstoneTools.addTool(WwwcTool);
+      cornerstoneTools.addTool(PanTool);
+      cornerstoneTools.addTool(ZoomTool);
+
+      cornerstoneTools.setToolActive("Pan", { mouseButtonMask: 4 });
+      cornerstoneTools.setToolActive("Zoom", { mouseButtonMask: 2 });
+      cornerstoneTools.setToolActive("Wwwc", { mouseButtonMask: 1 });
+
+      /***
+       * Our Tool
+       */
+      const ImageStatisticsTool =
+        exampleCornerstonejsMarketplaceListing.default;
+      cornerstoneTools.addTool(ImageStatisticsTool);
+      cornerstoneTools.setToolEnabled("ImageStatistics");
+    </script>
+  </body>
+</html>
