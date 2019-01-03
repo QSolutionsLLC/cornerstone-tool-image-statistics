@@ -1,0 +1,22 @@
+{
+  "projectName": "cornerstone-tool-image-statistics",
+  "projectOwner": "QSolutionsLLC",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "dannyrb",
+      "name": "Danny Brown",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5797588?v=4",
+      "profile": "http://dannyrb.com/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
