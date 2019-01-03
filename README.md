@@ -29,7 +29,17 @@ This repository also serves as a very basic example and template for creating a 
 
 ## Image Stats
 
+### Demo
+
+![GIF Example](https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics/raw/gh-page/example/example.gif)
+
+You can play with this tool using the [live example: here]()
+
+### Usage
+
 ...
+
+`npm install --save some-npm-tool-name`
 
 ## Contributing
 
