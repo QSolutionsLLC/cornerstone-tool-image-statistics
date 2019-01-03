@@ -10,7 +10,9 @@
   "scripts": {
     "build": "webpack && cpx dist/image-statistics.js example",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "npm run build && webpack-dev-server"
+    "serve": "npm run build && webpack-dev-server",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "repository": {
     "type": "git",
@@ -32,6 +34,7 @@
   "devDependencies": {
     "@babel/core": "7.2.x",
     "@babel/preset-env": "7.2.x",
+    "all-contributors-cli": "5.6.0",
     "babel-loader": "8.0.x",
     "babel-plugin-add-module-exports": "1.0.x",
     "cornerstone-core": "2.2.x",
