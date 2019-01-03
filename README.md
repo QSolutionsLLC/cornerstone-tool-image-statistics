@@ -84,7 +84,7 @@ Contributions of any kind welcome!
 
 ## License
 
-...
+[MIT](https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics/blob/master/LICENSE)
 
 <!--
 Links:
