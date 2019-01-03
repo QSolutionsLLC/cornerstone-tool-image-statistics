@@ -1,6 +1,6 @@
 {
   "name": "@qsolutionsllc/cornerstone-tool-image-statistics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Example project",
   "main": "dist/index.js",
   "module": "src/index.js",
