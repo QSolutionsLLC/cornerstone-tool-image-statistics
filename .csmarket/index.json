@@ -1,6 +1,6 @@
 {
   "shouldShow": true,
-  "name": "My Really Cool Plugin",
+  "name": "Image Statistics",
   "images": {
     "basePath": ".csmarket/img",
     "featured": "featured.png",
@@ -11,15 +11,13 @@
     "does some really cool stuff",
     "your mom would like it"
   ],
-  "category": "Annotations",
-  "tags": ["tool", "annotation"],
+  "category": "Overlay",
+  "tags": ["tool", "overlay"],
   "buyMeACoffee": "dannyrb",
   "compatibleWith": [
     {
       "name": "cornerstone-tools",
-      "versions": [
-        "3.0.x"
-      ]
+      "versions": ["3.0.x"]
     }
   ],
   "dependsOn": []
