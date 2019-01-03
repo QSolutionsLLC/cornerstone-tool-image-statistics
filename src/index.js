@@ -20,6 +20,7 @@ export default class ImageStatistics extends BaseTool {
 
   enabledCallback() {
     console.debug(`EnableCallback: ${this.name}`);
+    console.log('test');
     this._forceImageUpdate();
   }
 
