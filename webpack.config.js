@@ -5,8 +5,8 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'example-cornerstonejs-marketplace-listing.js',
-    library: 'exampleCornerstonejsMarketplaceListing',
+    filename: 'image-statistics.js',
+    library: 'ImageStatistics',
     libraryTarget: 'umd'
   },
   /**

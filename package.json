@@ -5,16 +5,16 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
-    "dist/example-cornerstonejs-marketplace-listing.js"
+    "dist/image-statistics.js"
   ],
   "scripts": {
-    "build": "webpack && cpx dist/example-cornerstonejs-marketplace-listing.js example",
+    "build": "webpack && cpx dist/image-statistics.js example",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "npm run build && webpack-dev-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dannyrb/example-cornerstonejs-marketplace-listing.git"
+    "url": "git+https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics.git"
   },
   "keywords": [
     "cornerstone",
@@ -26,9 +26,9 @@
   "author": "Danny Brown",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dannyrb/example-cornerstonejs-marketplace-listing/issues"
+    "url": "https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics/issues"
   },
-  "homepage": "https://github.com/dannyrb/example-cornerstonejs-marketplace-listing#readme",
+  "homepage": "https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics#readme",
   "devDependencies": {
     "@babel/core": "7.2.x",
     "@babel/preset-env": "7.2.x",
@@ -36,12 +36,12 @@
     "babel-plugin-add-module-exports": "1.0.x",
     "cornerstone-core": "2.2.x",
     "cornerstone-tools": "3.0.0-b.1512",
-    "cpx": "^1.5.0",
+    "cpx": "1.5.x",
     "eslint": "5.11.x",
     "eslint-loader": "2.1.x",
     "webpack": "4.28.x",
     "webpack-cli": "3.1.x",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "3.1.x"
   },
   "dependencies": {}
 }
