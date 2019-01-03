@@ -1,10 +1,9 @@
-## All Non-Dist Directories
+## All Non-Dist / Src Directories
 .circleci/
 .csmarket/
 .vscode/
 example/
 node_modules/
-src/
 
 ## Root Files
 .babelrc

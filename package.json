@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "module": "src/index.js",
   "files": [
-    "dist/image-statistics.js"
+    "dist/image-statistics.js",
+    "src/"
   ],
   "scripts": {
     "build": "webpack && cpx dist/image-statistics.js example",
