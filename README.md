@@ -37,9 +37,22 @@ You can play with this tool using the [live example: here]()
 
 ### Usage
 
-...
+Nothing crazy here. This tool is a class that extends `cornerstone-tool`'s ["BaseTool"](https://tools.cornerstonejs.org/tool-types/#base-tool). It can be installed, added, and extended the same way as all 3rd party tools.
 
-`npm install --save some-npm-tool-name`
+_Install via NPM:_
+
+`npm install @qsolutionsllc/cornerstone-tool-image-statistics --save`
+
+_Import, add, and enable:_
+
+```js
+import ImageStatisticsTool from "@qsolutionsllc/cornerstone-tool-image-statistics";
+
+// ...
+
+cornerstoneTools.addTool(ImageStatisticsTool);
+cornerstoneTools.setToolEnabled("ImageStatistics");
+```
 
 ## Contributing
 
