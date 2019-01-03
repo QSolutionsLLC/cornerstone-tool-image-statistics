@@ -22,19 +22,17 @@
 [![Tweet][twitter-badge]][twitter]
 <!-- prettier-ignore-end -->
 
-<!-- TODO: Pull Quote -->
+## Image Statistics
 
 This repository implements the ["Image Statistics"](https://github.com/cornerstonejs/cornerstoneTools/blob/317e8fa4925b018dee76ec0dbf1e452c1ef93cd0/src/imageTools/imageStats.js) tool that was available in CornerstoneTools v2, but removed in v3. It demonstrates how to implement the tool using version 3's ["plugins"](https://tools.cornerstonejs.org/custom-tools/).
 
 This repository also serves as a very basic example and template for creating a listing on the [Cornerstone.js Market](https://cornerstonejsmarket.io).
 
-## Image Stats
-
 ### Demo
 
 ![GIF Example](https://github.com/QSolutionsLLC/cornerstone-tool-image-statistics/raw/gh-page/example/example.gif)
 
-You can play with this tool using the [live example: here]()
+You can play with this tool using the [live example: here](https://qsolutionsllc.github.io/cornerstone-tool-image-statistics/)
 
 ### Usage
 
