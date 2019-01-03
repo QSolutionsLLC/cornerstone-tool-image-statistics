@@ -12,6 +12,7 @@
 
 <!-- prettier-ignore-start -->
 <!-- TODO: Coverage -->
+[![npm version](https://badge.fury.io/js/%40qsolutionsllc%2Fcornerstone-tool-image-statistics.svg)](https://badge.fury.io/js/%40qsolutionsllc%2Fcornerstone-tool-image-statistics)
 [![CircleCI](https://circleci.com/gh/QSolutionsLLC/cornerstone-tool-image-statistics.svg?style=svg)](https://circleci.com/gh/QSolutionsLLC/cornerstone-tool-image-statistics)
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
 [![PRs Welcome][prs-badge]][prs] [![Code of Conduct][coc-badge]][coc]
